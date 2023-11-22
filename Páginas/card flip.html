@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  border-radius: 27px;
+  
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 27px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  border-radius: 27px;
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 27px;
+}
+
+.flip-card-front {
+  background-color: #AC2E2E;
+  color: black;
+  font-size: 40px;
+  border-radius: 27px;
+  
+}
+
+
+.flip-card-back {
+  background-color: #AC2E2E;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 27px;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <br>
+      <br>
+    Conteúdo
+    </div>
+    <div class="flip-card-back">
+      <p class="títuloCard">
+        Aut eligendi voluptas sed omnis laboriosam ex eaque quam et reprehenderit laboriosam qui ipsa doloremque hic incidunt nobis. Cum aliquid 
+  blanditiis et eligendi laudantium a omnis labore aut cupiditate itaque hic perferendis voluptatibus non natus perferendis hic asperiores
+   ullam. Et iure excepturi est exercitationem autem sed similique nemo ab fuga ipsam ad atque provident id exercitationem dolor 33 consequatur
+    omnis.
+      </p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
