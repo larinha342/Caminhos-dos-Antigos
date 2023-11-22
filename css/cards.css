@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: #DFD8C7;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #313131;
+}
+
+main.cards{
+    display: flex;
+    padding: 32px;
+}
+
+main.cards section.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 468px;
+    margin-left: 32px;
+}
+
+main.cards section.card:first-child{
+    margin-left: 0;
+}
+
+main.cards section.card h3{
+    font-size: 100%;
+    margin: 16px 0;
+}
+
+main.cards section.card span{
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 80%;
+    margin-bottom: 16px;
+}
+
+main.cards section.card .icon{
+    width: 64px;
+    height: 64px;
+}
+
+main.cards section.card img{
+   width: 100%;
+}
+
+main.cards section.card button{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor:pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color:white;
+}
+
+main.cards section.card.museu{
+    background: #038C8C;
+}
+
+main.cards section.card.livros{
+    background: #01B598;
+}
+
+main.cards section.card.microfone{
+    background: #F7AA1C;
+}
+
+main.cards section.card.museu{
+    box-shadow: 20px 20px 50px -30px #03A2A6;
+}
+
+main.cards section.card.livros{
+    box-shadow: 20px 20px 50px -30px #02B576;
+}
+
+main.cards section.card.microfone{
+    box-shadow: 20px 20px 50px -30px #DB9F2E;
+}
+
+@media screen and (max-width: 720px){
+    main.cards{
+        flex-direction: column;
+    }
+    main.cards section.card{
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    main.cards section.card:last-child{
+        margin-bottom: 0;
+    }
+
+    main.cards section.card button{
+        font-size: 70%;
+    }
+
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.9rem 2rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: #adcacc;
+    color: ghostwhite;
+   }
+   
+   button span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+   }
+   
+   button:hover span {
+    color: black;
+   }
+   
+   button::before,
+   button::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+   }
+   
+   button::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+   }
+   
+   button:hover::before {
+    transform: translate3d(100%, 0, 0);
+   }
+   

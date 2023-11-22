@@ -1,0 +1,76 @@
+.conteudo {
+    margin-left: 100px; /* Aumenta a margem esquerda */
+    margin-right: 1000px; /* Aumenta a margem direita */
+  }
+  
+  
+  #texto1{
+    margin-top: 40px;
+    margin-left: 80px; /* Aumenta a margem esquerda */
+    margin-right: 40px; /* Aumenta a margem direita */
+    text-align: justify;
+  }
+  
+  
+  
+  
+  #img5{
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+  
+  .home-section{
+    position: relative;
+    background: #DFD8C7;
+    height: 500vh;
+    left: 260px;
+    width: calc(100% - 260px);
+    transition: all 0.5s ease;
+    padding: 0px;
+  }
+  
+  
+  #img5 {
+    position: absolute;
+    z-index: 2;
+  /* Coloque um valor maior do que as cores de fundo */
+  margin-top: -100px;
+  margin-left: 50px; /* Adicione outras propriedades de posicionamento e tamanho da imagem aqui */
+  
+  }
+  
+  #texto2{
+    position: absolute;
+    z-index: 2;
+    margin-top: 140px;
+    margin-left: 80px; /* Aumenta a margem esquerda */
+    margin-right: 90px; /* Aumenta a margem direita */
+    color: white;
+    text-align: justify;
+  }
+  
+  #segundacor {
+    position: relative;
+    z-index: 1;
+     /* Coloque um valor menor para o background */
+    margin-top: 200px;
+    position: relative;
+    background: #486663;
+    height: 100vh;
+    left: 0px;
+    width: calc(200% - 100px);
+    transition: all 0.5s ease;
+    padding: 0px; /* Adicione outras propriedades de estilo do background aqui */
+  }
+  .conteinerFlipCard{
+    height: 300px;
+  
+  }
+  
+  #img6{
+    margin-left: 650px;
+    margin-top: -400px;
+  }
+  
+  
+  

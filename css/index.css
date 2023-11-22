@@ -1,0 +1,363 @@
+
+@media screen and (max-width: 400px){}
+  .sidebar{
+    width: 240px;
+  }
+  .sidebar.close{
+    width: 78px;
+  }
+  .sidebar .profile-details{
+    width: 240px;
+  }
+  .sidebar.close .profile-details{
+    background: none;
+  }
+  .sidebar.close .profile-details{
+    width: 78px;
+  }
+  .home-section{
+    left: 240px;
+    width: calc(100% - 240px);
+  }
+  .custom-shape-divider-top-1695332314 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1695496604 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1695496604 svg {
+  position: relative;
+  display: block;
+  width: calc(105% + 1.3px);
+  height: 178px;
+}
+
+.custom-shape-divider-top-1695496604 .shape-fill {
+  fill: #66807D;
+}
+.custom-shape-divider-top-1695332314 .shape-fill {
+    fill: #66807D;
+}
+
+/* conteudo */
+.conteudo {
+  margin-left: 50px; /* Aumenta a margem esquerda */
+  margin-right: 50px; /* Aumenta a margem direita */
+}
+
+/* logo do conteiner*/
+#logo{
+width: 1000px;
+height: 200px;
+transform: rotate(1.514deg);
+flex-shrink: 0;
+}
+
+/* */
+#título4{
+margin-left: 50px; /* Aumenta a margem esquerda */
+margin-right: 70px; /* Aumenta a margem direita */
+left: 70px;
+margin-top: 230px;
+
+
+}
+
+
+/* */
+#texto{
+  width:300px;
+height:200px;
+position: relative;
+left:200px;
+margin-top: 230px;
+}
+
+
+/* texto entrada */
+#titulo2{
+  margin-top: 200px;
+  margin-left: 100px; /* Aumenta a margem esquerda */
+  margin-right: 50px;
+}
+
+/* cards */
+#card
+{
+  margin: 100px;
+  padding: 70px;
+  box-sizing: border-box;
+ 
+}
+
+
+main.cards{
+  display: flex;
+  padding: 32px;
+}
+
+main.cards section.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  max-height: 500px;
+  margin-left: 32px;
+}
+
+main.cards section.card:first-child{
+  margin-left: 0;
+}
+
+main.cards section.card h3{
+  font-size: 100%;
+  margin: 16px 0;
+}
+
+main.cards section.card span{
+  font-weight: 300;
+  max-width: 240px;
+  font-size: 80%;
+  margin-bottom: 16px;
+}
+
+main.cards section.card .icon{
+  width: 64px;
+  height: 64px;
+}
+
+main.cards section.card img{
+ width: 100%;
+}
+
+main.cards section.card button{
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border-radius: 32px;
+  border: 0;
+  cursor:pointer;
+  font-size: 80%;
+  font-weight: 500;
+  color:white;
+}
+
+main.cards section.card.museu{
+  background: #038C8C;
+}
+
+main.cards section.card.livros{
+  background: #01B598;
+}
+
+main.cards section.card.microfone{
+  background: #F7AA1C;
+}
+
+main.cards section.card.museu{
+  box-shadow: 20px 20px 50px -30px #03A2A6;
+}
+
+main.cards section.card.livros{
+  box-shadow: 20px 20px 50px -30px #02B576;
+}
+
+main.cards section.card.microfone{
+  box-shadow: 20px 20px 50px -30px #DB9F2E;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 0.9rem 2rem;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 500px;
+  overflow: hidden;
+  background: #adcacc;
+  color: ghostwhite;
+ }
+ 
+ button span {
+  position: relative;
+  z-index: 10;
+  transition: color 0.4s;
+ }
+ 
+ button:hover span {
+  color: black;
+ }
+ 
+ button::before,
+ button::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+ }
+ 
+ 
+ 
+ button:hover::before {
+  transform: translate3d(100%, 0, 0);
+ }
+ 
+
+ #imagens{
+  margin-left: 0px; /* Aumenta a margem esquerda */
+  margin-right: 0px; /* Aumenta a margem direita */
+  
+ }
+
+ #livro{
+  margin-left: 50px; /* Aumenta a margem esquerda */
+  margin-right: 70px; /* Aumenta a margem direita */
+  left: 70px;
+  margin-top: 100px;
+  
+  }
+
+
+#capa1{
+  width: 20px;
+height: 10px;
+margin-left: 50px; /* Aumenta a margem esquerda */
+margin-right: 50px; /* Aumenta a margem direita */
+margin-top: 50px;
+}
+
+#textolivro{
+  margin-top: 0px;
+  margin-left: 600px; /* Aumenta a margem esquerda */
+  margin-right: 200px; /* Aumenta a margem direita */
+}
+
+#capaalternativa{
+  width: 20px;
+  height: 10px;
+  margin-left: 600px; /* Aumenta a margem esquerda */
+  margin-right: 100px; /* Aumenta a margem direita */
+  margin-top: 350px;
+}
+
+#textolivro2{
+  margin-top: 100px;
+  margin-left: 100px; /* Aumenta a margem esquerda */
+  margin-right: 700px; /* Aumenta a margem direita */
+  
+}
+
+#título4
+{ margin-top: 300px;
+  margin-left: 200px;
+  color: #204A56;
+  font-family: Ubuntu Mono;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+ 
+#traducao{
+  margin-left: 1200px; /* Aumenta a margem esquerda */
+  margin-right: 20px; /* Aumenta a margem direita */
+ 
+}
+.container {
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	gap: 1em;
+	width: 800px;
+	height: 500px;
+	transition: all 400ms;
+}
+
+.container:hover .box {
+	filter: grayscale(100%) opacity(24%);
+}
+
+.box {
+	position: relative;
+	background: var(--img) center center;
+	background-size: cover;
+	transition: all 400ms;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  margin-top: 20px;
+}
+
+.container .box:hover {
+	filter: grayscale(0%) opacity(100%);
+}
+
+.container:has(.box-1:hover) {
+	grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+}
+
+.container:has(.box-2:hover) {
+	grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+}
+
+.container:has(.box-3:hover) {
+	grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+}
+
+.container:has(.box-4:hover) {
+	grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
+}
+
+.container:has(.box-5:hover) {
+	grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
+}
+
+.box:nth-child(odd) {
+	transform: translateY(-16px);
+}
+
+.box:nth-child(even) {
+	transform: translateY(16px);
+}
+
+.box::after {
+	content: attr(data-text);
+	position: absolute;
+	bottom: 20px;
+	color: #fff;
+	padding: 10px 10px 10px 14px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	transform: translateY(60px);
+	opacity: 0;
+	transition: all 400ms;
+}
+
+.box:hover::after {
+	transform: translateY(0);
+	opacity: 1;
+	transition-delay: 400ms;
+}
